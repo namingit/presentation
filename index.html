@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact/contact.css">
+    <script src="slider.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./about/about.html">About</a></li>
+                <li><a href="./service/service.html">Services</a></li>
+                <li><a href="#" class="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Slider -->
+    <div class="hero-slider">
+        <div class="slide slide1 active"></div>
+        <div class="slide slide2"></div>
+        <div class="slide slide3"></div>
+    </div>
+
+    <!-- Two Column Section -->
+    <section class="two-column">
+        <div class="column1">
+            <img src="images/image.jpg" alt="Image">
+        </div>
+        <div class="column2">
+            <h2>Lorem Ipsum</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla euismod nisl sit amet efficitur. Nunc vel sapien quis nisi suscipit vestibulum. Donec pharetra diam vel mauris iaculis, et convallis metus tristique. Sed auctor metus in arcu eleifend, vel ullamcorper ipsum eleifend. </p>
+        </div>
+    </section>
+
+     <!-- Contact Modal -->
+     <div class="modal" id="contact-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Contact Information</h2>
+            <p>Email: mundra.namita@gmail.com.com</p>
+            <p>Phone: 917-757-0366</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="copywrite">
+            &copy; 2023 Responsive Webpage. All rights reserved.
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </nav>
+        <button class="scrollToTopBtn">Top</button>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contact/contact.js"></script>
+
+</body>
+</html>
